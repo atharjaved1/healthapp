@@ -1,0 +1,25 @@
+<!-- Login Componenet -->
+<div class="container mt-5 logincontr w-35 mr-auto">
+    <div class="card mt-5 bg-custom-1 mb-5">
+        <h3 class="card-header">Sign In</h3>
+        <div class="card-body">
+  <form class="form-signin" (submit)="onLoginSubmit()">
+    <div class="form-group">
+        <label for="Username">Username</label>
+        <input type="text" class="form-control" placeholder="Enter Username" [(ngModel)]="username" name="username">
+    </div>
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" placeholder=" Enter Password" [(ngModel)]="password" name="password">
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+    </div>
+    <input class="btn lgn_btn" type="submit" value="Login">
+  </form>
+</div>
+</div>
+</div>
+<!-- End Login Component -->

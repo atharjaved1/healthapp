@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-nav fixed-top">
+  <!-- <a class="navbar-brand" href="#">Healthpack</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav logonav mr-auto">
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/']">
+          <img class="img-responsive logo-brand" width="178px" src="assets/img/logo.png" />
+        </a> 
+      </li>
+    </ul>
+    <ul class="navbar-nav cust-nav ml-auto">
+      <li class="nav-item dashboard" *ngIf="authService.loggedIn()" [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/dashboard']">Dashboard </a>
+      </li>
+      <li class="nav-item profile" *ngIf="authService.loggedIn()" [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/profile']">Profile </a>
+      </li>
+      <li class="nav-item loginnav" *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/login']">Login </a>
+      </li>
+      <li class="nav-item signuplogin" *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/register']">SIGN UP</a>
+      </li>
+      <li class="nav-item logout" *ngIf="authService.loggedIn()"><a class="nav-link" (click)="onLogoutClick()"
+          href="#">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="clearfix"></div>
+<div class="divider"></div>

@@ -1,0 +1,14 @@
+<div class="container profilecntr mt-5">
+<div class="card mt-5 bg-custom-1 mb-5">
+  <h3 class="card-header">Profile</h3>
+  <div class="card-body">
+<div *ngIf="user">
+  <h2 class="page-header" style="text-transform: capitalize">{{user.name}}</h2>
+  <ul class="list-group">
+    <li class="list-group-item"><b>Username :</b> {{user.username}}</li>
+    <li class="list-group-item"><b>Email :</b> {{user.email}}</li>
+  </ul>
+</div>
+</div>
+</div>
+</div>

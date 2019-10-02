@@ -1,0 +1,41 @@
+.homecomponent{
+    margin-top: 100px;
+    padding-left: 112px !important;
+}
+.span-reason{
+    color: #1e2025;
+    line-height: 1.341;
+}
+.medicalcenter{
+    
+    color: rgba( 0, 0, 0, 0.6 );
+}
+.dropdown{ 
+    width: 250px !important;
+    color: #3478ba !important;  
+    background: #f3f5f9 !important;
+    padding: 10px !important;
+}
+.selecappoitdrp{
+    color: #3478ba !important;
+    font-size: 15px; 
+    cursor: pointer;
+}
+.searchbtn {
+    position: absolute;
+    margin-top:24px;
+    right: 4px;
+    background: #74c045;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400; 
+    width: 89px;
+    border-radius: 4px !important;
+}
+.fa.fa-angle-down {
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}

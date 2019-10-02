@@ -1,0 +1,234 @@
+/* You can add global styles to this file, and also import other style files */
+ 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(assets/fonts/HelveticaNeueMed.ttf);
+}
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url(assets/fonts/HelveticaNeueLight.ttf);
+}
+@font-face {
+  font-family: CircularStdFont;
+  src: url('./assets/fonts/CircularStdFont.otf');
+}
+@font-face {
+  font-family: CircularStdBold;
+  src: url('./assets/fonts/CircularStdBold.ttf'); 
+}
+
+.rightnav{ 
+  padding-right: 40px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.rightnav a, span{ 
+  color: rgb( 133, 135, 149 );  
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.welocm {
+  font-size: 16px;
+  font-family: HelveticaNeueLight;
+  color: rgb( 133, 135, 149 ); 
+  margin-left: 20px;
+}
+.logo-brand{
+  margin-left: 20px; 
+} 
+.bgdoc{
+  background-image: url(assets/img/docBg.png);
+}
+.bgpt{
+  background-image: url(assets/img/ptBg.png);
+}
+.bgdoc, .bgpt{
+  position: relative; 
+  max-width: 430px !important;
+  padding: 0px;
+  background-size: cover;
+  height: 330px; 
+  background-repeat: no-repeat; 
+  margin-right: 12px;
+}
+.greenBg{
+  background: #4d822d;
+}
+.target-profilePt{
+   background: #073f74;
+}
+.target-profilePt, .greenBg{
+  width: 90px;
+  height: 90px; 
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.profilePt{
+  position: absolute;
+  width: 78px;
+  left: 6px;
+  top: 15px;
+}
+
+.cust-hd{
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif; 
+  color: #fff;
+  margin-left: 20px;
+  line-height: 1.284;
+}
+
+.cust-p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba( 255, 255, 255, 0.702 );
+  line-height: 1.284;
+  width: 257px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.border-cust{
+  border: 1px solid rgba( 255, 255, 255, 0.702 );
+  width: 100%;
+  font-size: 22.214px;
+  font-family: HelveticaNeue; 
+  height: 56px;
+}
+.btn-outline-secondary:hover{
+  background-color: transparent;
+  border-color: #fff;
+}
+.offset-sm-cust{ 
+    margin-left: 18%; 
+}
+.content{
+  position: relative;
+  margin-top: 125px;  
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.hd-booking{ 
+  font-family: CircularStdBold;
+  width: 25%;
+  line-height: 1;
+}
+.dropdown{ 
+  width: 250px !important;
+  color: #3478ba !important;  
+  background: #f3f5f9 !important;
+  padding: 10px !important;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+ 
+.fa-angle-down:before { 
+  color: #929395;
+}
+.bookinbg{
+  background-image: url(assets/img/bookingBg.png);
+  background-size: 534px 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: 80px -9px;
+}
+.container-fluid{
+  padding-right: 0px !important; 
+}
+input.searchinput {
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-image: url(assets/img/keywordsearch.png);
+  background-position: 15px 12px;
+  color: #9496a4;
+  font-size: 14px;  
+  font-weight: 300;
+  width: 470px;
+  height: 44px;
+  background-color: #f3f5f9;
+  background-size: 20px 20px;
+  margin-top: 20px;
+}
+.andios{  
+  background: #333; 
+  height:300px;  
+  margin-left: -15px;
+  padding-left: 128px;
+  padding-top: 30px;
+}
+.andios p{ 
+  font-family: CircularStdBold;
+  font-size: 36px;
+  width: 66%; line-height: 1.224;
+}
+.andios span{ 
+  margin-bottom:20px;
+}
+.andios img{
+  height: 45px;
+  margin-right: 15px; 
+}
+.andios{
+  background:#eef7e8
+}
+.isonandroid img{ 
+  height: 250px;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+.w-35{
+  width: 35% !important;
+}
+.logincontr{
+  margin-top: 180px !important;
+}
+.signupcntr{
+  margin-top: 130px !important;
+}
+.card-header{
+  background-color: #0459aa; 
+  color: #fff;
+}
+.lgn_btn, .signupbtn{  
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+} 
+.lgn_btn{ 
+  background: #0459aa;
+}
+.signupbtn{ 
+  background:#93C54B
+}
+.signupheader{
+  background: #93C54B;
+}
+.lgn_btn:hover{
+  color: #fff;
+}
+.card, .form-control{
+  border: 1px solid #0459aa;
+}
+.signupcntrbrd{
+  border: 1px solid #93C54B;
+}
+.signupcntrbrd .form-control{
+  border: 1px solid #93C54B;
+}
+.dashboard{
+
+}
